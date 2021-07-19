@@ -1,5 +1,5 @@
 console.log("Welcome back to school friends")
-console.log("I'm hppy to see you again")
+console.log("I'm happy to see you again")
 console.log("Hello Git")
 console.log("Hello World nice to meet you")
 console.log("I'm Ousseynou Dieng, your javascript teacher")
