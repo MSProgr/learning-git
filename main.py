@@ -9,5 +9,7 @@ def is_prime(n):
         return True
     return False
 
+def first_and_end(l):
+    return [l[0],l[-1]]
 
 
