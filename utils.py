@@ -28,9 +28,23 @@ def guessing_number():
         else:
             print("Congrats, you found the right number")
             break
-
+        
 def fibonacci(n):
     fib = [1,1]
     for i in range(n):
         fib[i] = fib[i-2] + fib[i-1]
     return fib
+def find_minimum_and_max(l):
+    min_val = l[0]
+    max_val = l[0]
+    for value in l[1:]:
+        if value < min_val:
+            min_val = value
+        elif value > max_val:
+            max_val = value
+    return range(min_val,max_val+1)
+
+def sort_list(l):
+    my_gen = find_minimum_and_max(l)
+    return [[i]*l.count(i) for i in my_gen if i in l]
+
