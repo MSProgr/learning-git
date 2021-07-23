@@ -29,3 +29,8 @@ def guessing_number():
             print("Congrats, you found the right number")
             break
 
+def fibonacci(n):
+    fib = [1,1]
+    for i in range(n):
+        fib[i] = fib[i-2] + fib[i-1]
+    return fib
